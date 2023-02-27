@@ -27,7 +27,16 @@
                   <a href="#lab5">Labo 5</a>
                 </span>
             </li>
-            <li><a href="#projets">Projets</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">Projets 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <span class="dropdown-content">
+                  <a href="#jeu2048">Jeu 2048</a>
+                  <a href="#mealer">Mealer</a>
+                </span>
+            </li>
+            <!-- <li><a href="#projets">Projets</a></li> -->
           </ul>
     </div>
         <div class="content">
@@ -91,11 +100,41 @@
                 <hr>
             </div>
             <div class="main" id="projets">
-                <div id="Mealer"></div>
+                <div></div>
                     <hr>
                     <h2>Mes projets</h2>
                     <hr>
-                    <div>
+                    <div id="jeu2048">
+                        <h3><a href="https://github.com/EmilieBrazeau/csi3540_2048">Jeu 2048 avec Javascript</a></h3>
+                        <p>Dans le cadre du cours de Structures et normes du Web, j'ai implémenté le jeu <a href="https://www.2048.org/">2048</a> en n'utilisant que HTML, CSS et Javascript.</p>
+                        <p class="underlined">Logiciels utilisés:</p>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <p class="underlined">Informations sur le jeu et l'implémentation:</p>
+                        <ul>
+                            <li>Utiliser les flèches du clavier pour déplacer les tuiles</li>
+                            <li>Lorsque deux tuiles de même valeur se touchent, elles fusionnent en leur somme</li>
+                            <li>L'objectif est d'atteindre la tuile 2048</li>
+                            <li>Une nouvelle tuile de valeur 2 est ajoutée lors de 90% des déplacements alors qu'une tuile de valeur 4 l'est pour l'autre 10%. </li>
+                            <li>Inclus le système de design</li>
+                        </ul>
+                        <p class="underlined">Limitations:</p>
+                        <ul>
+                            <li>N'inclue pas des animations de transitions pour le déplacement des tuiles</li>
+                            <li>L'agancement des couleurs ne respectent pas entièrement les normes d'accessibilité
+                            </li>
+                        </ul>
+                        <p class="underlined">Design du jeu:</p>
+                        <span><img class="smaller" src="2048-grid.jpg">
+                        <span class="invisible">_____</span>
+                        <img class="smaller" src="2048-won.jpg">
+                        </span>
+                    </div>
+                    <hr>
+                    <div id="mealer">
                         <h3>Application Android: <span class="italic">Mealer</span></h3>
                         <p>Dans le cadre du cours d'Introduction au génie logiciel, mes trois collègues et moi avons développé un application de partage de repas basée à Ottawa. Elle avait pour but de permettre aux cuisiniers locaux de vendre des repas à des clients via l'application.</p>
                         <p class="underlined">Logiciels utilisés:</p>
