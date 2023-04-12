@@ -20,7 +20,9 @@ h2{text-align: center; text-shadow: 3px 3px 3px #ecf0f1;}
 
 .italic{font-style: italic;}
 .underlined {text-decoration: underline;}
+.small {max-width: 400px; height: auto;}
 .smaller {max-width: 200px; height: auto;}
+.half {width: 49%; max-height: 350px;}
 .invisible {color: #d0e8f8}
 
 
